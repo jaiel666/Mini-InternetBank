@@ -54,7 +54,7 @@ Mini Internet Bank is a web application developed using PHP with the Laravel fra
    - Clone your Mini Internet Bank Git repository.
    - Run `composer install` to install Laravel dependencies.
    - Create a copy of the `.env.example` file and name it `.env`.
-   - Configure your `.env` file with database details and other necessary settings.
+   - Configure your `.env` file with database details and your CoinMarketCap API key for the cryptocurrencies command.
    - Generate an application key using `php artisan key:generate`.
 
 7. **Database Migrations:**
@@ -84,7 +84,6 @@ Explore the comprehensive features of the Mini Internet Bank App:
 
 - **Fund Transactions:**
   - Send and receive money seamlessly.
-  - Utilize the updated exchange rates for currency conversions when sending money.
 
 - **Cryptocurrency Activities:**
   - Buy and sell cryptocurrencies based on the latest market data.
