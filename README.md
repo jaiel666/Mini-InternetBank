@@ -5,4 +5,9 @@ Mini Internet Bank is a web application developed using PHP with the Laravel fra
 
 ## Features 
 
-![Login Feature](https://gyazo.com/0502c947ee51a5ebf81bca7e5c847163)
+Register Page
+Login Page
+User Dashboard
+Transactions
+Crypto Dashboard
+Investment Dashboard
