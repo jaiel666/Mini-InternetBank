@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.navbar {
+    background-color: #757575;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+select,
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#crypto_received {
+    margin-top: 10px;
+    display: block;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}

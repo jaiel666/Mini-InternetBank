@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+.navbar {
+    background-color: #757575;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.user-info span {
+    display: block;
+}
+
+.navbar-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+.main-box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.welcome-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.user-details {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.balance-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 35%;
+}
+
+.btn-blue {
+    background-color: #4caf50;
+}
+
+.btn-blue:hover {
+    background-color: #45a049;
+}
+
+.transfer-history-link a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+}
+
+.transfer-history-link a:hover {
+    color: #2980b9;
+}
