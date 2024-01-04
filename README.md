@@ -64,7 +64,7 @@ Mini Internet Bank is a web application developed using PHP with the Laravel fra
    - Run the development server using `php artisan serve` to start your Mini Internet Bank locally.
 
 9. **Testing:**
-   - Test your application to ensure all features work as expected.
+   - Test application to ensure all features work as expected.
 
  ## Commands
 
