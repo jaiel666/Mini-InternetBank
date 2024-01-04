@@ -6,8 +6,17 @@ Mini Internet Bank is a web application developed using PHP with the Laravel fra
 ## Features 
 
 Register Page
+![Login Feature](images/login_page.png)
 Login Page
+![Regiuster Feature](images/register_page.png)
 User Dashboard
 Transactions
 Crypto Dashboard
 Investment Dashboard
+
+## Requirements
+Git
+Code Editor (e.g., PHPStorm or any other)
+MySql (or any compatible database for data storage)
+PHP
+PHP Extensions for Laravel
