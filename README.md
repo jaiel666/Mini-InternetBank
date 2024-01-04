@@ -66,9 +66,35 @@ Mini Internet Bank is a web application developed using PHP with the Laravel fra
 9. **Testing:**
    - Test your application to ensure all features work as expected.
 
-  ## Usage
+ ## Commands
 
-  
-  Enjoy the functionality of the Mini Internet Bank App,
+Initiate instant updates with the following commands:
+
+- `php artisan update-cryptocurrencies`: Updates all available cryptocurrencies in the system and their rates.
+- `php artisan exchange-rates:update-specific`: Updates exchange rates, allowing seamless currency transfers between accounts.
+- `php artisan update-investments`: Keeps the investment page up-to-date with the latest data.
+- `php artisan update-balances`: Updates cryptocurrency balances, ensuring accuracy after modifying the cryptocurrencies table.
+
+ ## Usage
+
+Explore the comprehensive features of the Mini Internet Bank App:
+
+- **Account Management:**
+  - Create and manage accounts effortlessly.
+
+- **Fund Transactions:**
+  - Send and receive money seamlessly.
+  - Utilize the updated exchange rates for currency conversions when sending money.
+
+- **Cryptocurrency Activities:**
+  - Buy and sell cryptocurrencies based on the latest market data.
+
+- **Investment Management:**
+  - Stay informed about investment opportunities and portfolio performance.
+
+- **Command Integration:**
+  - Run commands to keep cryptocurrency data, exchange rates, investments, and balances up-to-date.
+
+Enjoy a seamless and feature-rich banking experience with the Mini Internet Bank App!
 
   
